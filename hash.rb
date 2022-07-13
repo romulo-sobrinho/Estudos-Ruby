@@ -9,3 +9,13 @@ employee3[:name] = "John"
 employee3[:salary] = 50000
 puts employee3
  
+
+dogs = [
+  {"breed": "yorkshire", "name": "mel"},
+  {"breed": "rottweiler", "name": "brutus"}
+]
+
+dogs.each do |dog|
+  puts "====================================="
+  puts "Raça: #{dog[:breed]}, Nome: #{dog[:name]}"
+end
