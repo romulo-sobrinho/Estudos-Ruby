@@ -19,3 +19,13 @@ dogs.each do |dog|
   puts "====================================="
   puts "Raça: #{dog[:breed]}, Nome: #{dog[:name]}"
 end
+
+employees = [
+  {"name": "John", "salary": 5000},
+  {"name": "Ana", "salary": 6000}
+]
+
+employees.each do |employee|
+  puts "====================================="
+  puts "Raça: #{employee[:name]}, Nome: #{employee[:salary]}"
+end
